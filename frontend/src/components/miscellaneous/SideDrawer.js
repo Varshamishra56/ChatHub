@@ -50,7 +50,7 @@ function SideDrawer() {
 
   const toast = useToast();
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const navigate = useNavigate;
+  const navigate = useNavigate(); // Fixed here
 
   const logoutHandler = () => {
     localStorage.removeItem("userInfo");
