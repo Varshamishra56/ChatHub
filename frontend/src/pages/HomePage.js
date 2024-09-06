@@ -34,7 +34,7 @@ const HomePage = () => {
         borderWidth={"1px"}
       >
         <Text fontSize={"4xl"} fontFamily={"cursive"}>
-          Talk-a-Tive
+          ChatHub
         </Text>
       </Box>
       <Box
